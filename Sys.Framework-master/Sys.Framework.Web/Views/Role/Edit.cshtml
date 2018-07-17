@@ -1,0 +1,24 @@
+﻿@model Sys.Framework.Model.Sys.Roles
+@{
+    Layout = "~/Views/Shared/_EditLayout.cshtml";
+}
+@section scripts{
+    <script type="text/javascript">
+        function onSave() {
+            console.log("开始执行保存...");
+            var data = $('#myForm').serialize();
+            $.post('/Role/Edit', data, function (result) {
+                return $lsy.callbackDialog(result, false);
+            })
+        }
+    </script>
+}
+<form id="myForm" class="form-horizontal" role="form">
+    <input type="hidden" name="Role_Id" value="@Model.Role_Id" />
+    <div class="form-group">
+        <label class="col-sm-2 control-label">角色名称</label>
+        <div class="col-sm-6">
+            <input type="text" name="F_RoleName" class="form-control" placeholder="用户名" value="@Model.Role_Name">
+        </div>
+    </div>
+</form>

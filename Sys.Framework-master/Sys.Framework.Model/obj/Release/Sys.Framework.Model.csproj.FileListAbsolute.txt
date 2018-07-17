@@ -1,0 +1,6 @@
+E:\ChromeDownload\Sys.Framework-master\Sys.Framework.Model\bin\Release\Sys.Framework.Model.dll
+E:\ChromeDownload\Sys.Framework-master\Sys.Framework.Model\bin\Release\Sys.Framework.Model.pdb
+E:\ChromeDownload\Sys.Framework-master\Sys.Framework.Model\obj\Release\Sys.Framework.Model.csprojResolveAssemblyReference.cache
+E:\ChromeDownload\Sys.Framework-master\Sys.Framework.Model\obj\Release\Sys.Framework.Model.csproj.CoreCompileInputs.cache
+E:\ChromeDownload\Sys.Framework-master\Sys.Framework.Model\obj\Release\Sys.Framework.Model.dll
+E:\ChromeDownload\Sys.Framework-master\Sys.Framework.Model\obj\Release\Sys.Framework.Model.pdb
